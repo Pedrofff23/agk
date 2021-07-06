@@ -49,8 +49,6 @@ function clickableSprite()
 	x = GetPointerX()
 	y = GetPointerY()
 	
-	Print(str(x) + "," + str(y))
-	
 	if GetPointerReleased()
 		
 		if GetSpriteHitTest(sprite,GetPointerX(),GetPointerY())
